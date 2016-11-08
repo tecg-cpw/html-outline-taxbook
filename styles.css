@@ -1,0 +1,48 @@
+body {
+    background-color: #ffffff;
+    color: #444;
+    font: 16px/1.4 "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+    width:30em;
+    margin: 0 auto;
+}
+h1, h2, h3 {
+    line-height: 40px;
+    text-rendering: optimizelegibility;
+}
+h1 {
+    font-size: 38.5px;
+    background-color: #550000;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding:0.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 31.5px;
+    color: #550000;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+h2:before{
+    content:"♋︎ ";
+}
+h3 {
+    font-size: 24.5px;
+    color:#567714;
+    margin-left:20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+h3:before{
+    content:"♒︎ ";
+}
+h3 + p {
+    margin-left:20px;
+    margin-top:5px;
+}
+h4 {
+    color:#407F7F;
+}
